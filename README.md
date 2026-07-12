@@ -1,4 +1,4 @@
-🎵 URRADIFY is an offline desktop MP3 player application developed using Python and PyQt6 Designer as the final project for the University Programming course. The application demonstrates desktop GUI development, multimedia integration, modular software architecture, and modern user interface design.
+🎵 URRADIFY is an offline desktop MP3 player application developed using Python and PyQt6 Designer as the final project for a university Programming course. While the assignment required students to build a desktop application using PyQt6 and Qt Designer, the concept, features, and overall application design were independently proposed and developed by the author. The project demonstrates desktop GUI development, multimedia integration, modular software architecture, and modern user interface design.
 
 ---
 
