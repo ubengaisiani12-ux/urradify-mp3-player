@@ -18,7 +18,7 @@ URRADIFY is an offline GUI-based MP3 player application built with Python and Py
 
 ## 📥 How to Get All Music Files (Google Drive)
 To save space on GitHub, this repository only includes 1 sample song. If you want to listen to the full playlist:
-1. Open and download the full music folder from this https://drive.google.com/drive/folders/1VL1aO9enmvVBoBfA5u-LfCb7JI_lwOcq?usp=sharing
+1. Open and download the full music folder from this **[Google Drive Link](https://drive.google.com/drive/folders/1VL1aO9enmvVBoBfA5u-LfCb7JI_lwOcq?usp=sharing)**.
 2. Extract or copy all the downloaded `.mp3` files.
 3. Paste/put them inside the `URRADIFY_UAS_FINAL/music/` folder on your local computer.
 
