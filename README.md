@@ -48,19 +48,17 @@
 
 ## 📁 Project Structure
 
-```
-URRADIFY_UAS_FINAL/
+urradify-mp3-player/
 │
-├── assets/          # Images, icons, album artwork
-├── music/           # Local MP3 files
-├── models/          # Backend logic
-├── ui/              # Qt Designer (.ui) files
-├── main.py          # Main application
-├── requirements.txt # Python dependencies
-└── README.md
+├── URRADIFY_UAS_FINAL/
+│   ├── assets/      # Images, icons, and album artwork
+│   ├── models/      # Backend logic and application modules
+│   ├── music/       # Sample local MP3 files
+│   ├── ui/          # Qt Designer (.ui) files
+│   └── main.py      # Application entry point
+│
+└── README.md        # Project documentation
 ```
-
----
 
 ## 🚀 Installation & Usage
 
