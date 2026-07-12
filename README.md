@@ -1,72 +1,152 @@
-# URRADIFY - Desktop MP3 Player Application
+# 🎵 URRADIFY - Desktop MP3 Player
 
-URRADIFY is an offline GUI-based MP3 player application built with Python and PyQt6 Designer, developed as a Final Project for the Programming course.
+URRADIFY is an offline desktop MP3 player application developed using **Python** and **PyQt6 Designer** as a final university programming project. The application demonstrates desktop GUI development, multimedia integration, modular software architecture, and modern user interface design.
+
+---
 
 ## 📷 Application Preview
 
-### Login Page
-<img width="1787" height="1080" alt="LOGIN" src="https://github.com/user-attachments/assets/35e14978-ac53-4647-916b-5089cda7f28d" />
+### 🔐 Login Page
 
-### Music Dashboard
-<img width="1807" height="1021" alt="DASBOARD" src="https://github.com/user-attachments/assets/1f459e48-fd23-4961-9516-7ecc29253b20" />
+<img width="1787" height="1080" alt="Login Page" src="https://github.com/user-attachments/assets/35e14978-ac53-4647-916b-5089cda7f28d" />
 
+### 🎵 Music Dashboard
 
+<img width="1807" height="1021" alt="Music Dashboard" src="https://github.com/user-attachments/assets/1f459e48-fd23-4961-9516-7ecc29253b20" />
 
-
-##Paswword Username Login
-URRADIFY
-123
-
+---
 
 ## ✨ Features
-- **Offline Playback**: Plays local MP3 files stored directly within the project's music directory.
-- **Modern UI Layout**: A clean, dark-themed desktop interface completely designed using PyQt6 Qt Designer.
-- **Audio Control**: Interactive controllers featuring Play, Pause, Stop, and integrated volume sliders.
 
-## 📁 Project Structure
-- `URRADIFY_UAS_FINAL/` : Main application folder containing the program files.
-  - `assets/` : Stores interface graphics, application icons, and song cover albums.
-  - `music/`  : Contains 1 sample local MP3 audio file for initial testing.
-  - `models/` : Contains the core backend logic, functions, and data structures.
-  - `ui/`     : Holds the `.ui` layout files generated from Qt Designer.
-  - `main.py` : The main execution file of the application.
-- `README.md` : Project documentation (this file).
+- 🎵 Offline MP3 playback using local audio files.
+- 🔐 User authentication (Login System).
+- 🎨 Modern dark-themed desktop interface designed with Qt Designer.
+- 📂 Local playlist management.
+- ⏯️ Play, Pause, Stop, Next, Previous, and Volume controls.
+- 🖥️ Multi-page desktop navigation using **QStackedWidget**.
+- ⚡ Fast and lightweight desktop application.
 
-## 📥 How to Get All Music Files (Google Drive)
-To save space on GitHub, this repository only includes 1 sample song. If you want to listen to the full playlist:
-1. Open and download the full music folder from this https://drive.google.com/drive/folders/1VL1aO9enmvVBoBfA5u-LfCb7JI_lwOcq?usp=sharing
-2. Extract or copy all the downloaded `.mp3` files.
-3. Paste/put them inside the `URRADIFY_UAS_FINAL/music/` folder on your local computer.
-
-## 🚀 My Role (Lead Developer & Architect)
-- Designed the core desktop layout, authentication forms, and dark-mode UI aesthetics.
-- Developed the Python backend logic, page routers, and integrated the `.ui` files.
-- Managed modular directory storage for offline MP3 files and graphical assets.
-- Utilized AI tools to implement rapid debugging and audio thread optimization.
+---
 
 ## 🛠️ Tech Stack
-- **Language:** Python 3.x
-- **GUI Framework:** PyQt6 & Qt Designer
-- **Audio System:** PyQt6.QtMultimedia / Pygame
 
-## 💻 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd urradify-mp3-player.
-   ```
-3. Enter the main application folder:
-   ```bash
-   cd URRADIFY_UAS_FINAL
-   ```
-4. Install PyQt6:
-   ```bash
-   pip install PyQt6
-   ```
-5. Run the application:
-   ```bash
-   python main.py
-   ```
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python 3.x |
+| GUI Framework | PyQt6 |
+| UI Designer | Qt Designer |
+| Multimedia | PyQt6.QtMultimedia / Pygame |
+| IDE | Visual Studio Code |
+
+---
+
+## 🔐 Demo Account
+
+| Username | Password |
+|----------|----------|
+| **URRADIFY** | **123** |
+
+---
+
+## 📁 Project Structure
+
+```
+URRADIFY_UAS_FINAL/
+│
+├── assets/          # Images, icons, album artwork
+├── music/           # Local MP3 files
+├── models/          # Backend logic
+├── ui/              # Qt Designer (.ui) files
+├── main.py          # Main application
+├── requirements.txt # Python dependencies
+└── README.md
+```
+
+---
+
+## 🚀 Installation & Usage
+
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/ubengaisiani12-ux/urradify-mp3-player.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd urradify-mp3-player
+cd URRADIFY_UAS_FINAL
+```
+
+### 3. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+> If `requirements.txt` is unavailable, install the required libraries manually:
+
+```bash
+pip install PyQt6 pygame
+```
+
+### 4. Run the application
+
+```bash
+python main.py
+```
+
+---
+
+## 🎵 Additional Music Pack
+
+To keep this repository lightweight, only **one sample MP3 file** is included.
+
+Download the complete music collection from the Google Drive link below:
+
+https://drive.google.com/drive/folders/1VL1aO9enmvVBoBfA5u-LfCb7JI_lwOcq?usp=sharing
+
+After downloading, copy all `.mp3` files into:
+
+```
+URRADIFY_UAS_FINAL/music/
+```
+
+---
+
+## 👨‍💻 My Contributions
+
+As the **Lead Developer**, I was responsible for:
+
+- Designing the desktop application architecture.
+- Developing the backend logic in Python.
+- Building the graphical user interface using PyQt6 Designer.
+- Integrating all `.ui` files with Python.
+- Implementing multi-page navigation using **QStackedWidget**.
+- Organizing the project structure and application assets.
+- Implementing multimedia playback functionality.
+- Utilizing AI-assisted development for debugging and code optimization.
+
+---
+
+## 🚀 Future Improvements
+
+Planned features for future development include:
+
+- 🔀 Shuffle mode
+- 🔁 Repeat mode
+- ❤️ Favorite songs
+- 🔍 Search functionality
+- 🎼 Metadata reader
+- 📑 Playlist persistence
+- 🎧 Equalizer
+- 🌙 Additional UI themes
+
+---
+
+## 📄 License
+
+This project was developed for **educational purposes** as a final university programming project.
+
+Feel free to explore, learn from, and improve the project for non-commercial educational use.
