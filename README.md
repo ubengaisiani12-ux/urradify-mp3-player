@@ -40,7 +40,7 @@ To save space on GitHub, this repository only includes 1 sample song. If you wan
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repository-name
+   cd urradify-mp3-player.
    ```
 3. Enter the main application folder:
    ```bash
