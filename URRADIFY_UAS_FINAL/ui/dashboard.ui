@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>1200</width><height>700</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>URRADIFY Dashboard</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listSongs">
+    <property name="geometry"><rect><x>30</x><y>80</y><width>350</width><height>500</height></rect></property>
+   </widget>
+   <widget class="QLabel" name="lblNowPlaying">
+    <property name="geometry"><rect><x>450</x><y>100</y><width>300</width><height>40</height></rect></property>
+    <property name="text"><string>Now Playing</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnPlay">
+    <property name="geometry"><rect><x>450</x><y>500</y><width>100</width><height>40</height></rect></property>
+    <property name="text"><string>Play</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnPause">
+    <property name="geometry"><rect><x>570</x><y>500</y><width>100</width><height>40</height></rect></property>
+    <property name="text"><string>Pause</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnStop">
+    <property name="geometry"><rect><x>690</x><y>500</y><width>100</width><height>40</height></rect></property>
+    <property name="text"><string>Stop</string></property>
+   </widget>
+   <widget class="QSlider" name="sliderVolume">
+    <property name="geometry"><rect><x>450</x><y>570</y><width>250</width><height>22</height></rect></property>
+    <property name="orientation"><enum>Qt::Horizontal</enum></property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
