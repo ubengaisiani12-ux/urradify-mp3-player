@@ -2,6 +2,22 @@
 
 URRADIFY is an offline GUI-based MP3 player application built with Python and PyQt6 Designer, developed as a Final Project for the Programming course.
 
+## 📷 Application Preview
+
+### Login Page
+<img width="1787" height="1080" alt="LOGIN" src="https://github.com/user-attachments/assets/35e14978-ac53-4647-916b-5089cda7f28d" />
+
+### Music Dashboard
+<img width="1807" height="1021" alt="DASBOARD" src="https://github.com/user-attachments/assets/1f459e48-fd23-4961-9516-7ecc29253b20" />
+
+
+
+
+##Paswword Username Login
+URRADIFY
+123
+
+
 ## ✨ Features
 - **Offline Playback**: Plays local MP3 files stored directly within the project's music directory.
 - **Modern UI Layout**: A clean, dark-themed desktop interface completely designed using PyQt6 Qt Designer.
